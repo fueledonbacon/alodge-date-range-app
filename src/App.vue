@@ -40,7 +40,7 @@ export default {
         return [y,m,d].join("-")
     },
     submit(){
-        location.href = `/lyons?widget=1${this.hash}`
+        location.href = `/booking?widget=1${this.hash}`
     }
   }
 }
