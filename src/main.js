@@ -3,6 +3,10 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-new Vue({
+const dateRangeApp = new Vue({
   render: h => h(App),
-}).$mount('#date-range-app')
+})
+
+if(document.getElementById('date-range-app')){
+  dateRangeApp.$mount('#date-range-app')
+}
