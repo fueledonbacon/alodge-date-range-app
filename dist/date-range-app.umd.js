@@ -2983,12 +2983,12 @@ var es_promise_finally = __webpack_require__("a79d");
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"109e022d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=0e3242af&
-var Appvue_type_template_id_0e3242af_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('date-picker',{attrs:{"minNights":1},on:{"check-in-changed":function($event){_vm.from = $event},"check-out-changed":function($event){_vm.to = $event}}}),_c('button',{staticClass:"cta",on:{"click":_vm.submit}},[_vm._v("Check Dates")])],1)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3f24c82c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=7fb7abbc&
+var Appvue_type_template_id_7fb7abbc_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('date-picker',{attrs:{"minNights":1},on:{"check-in-changed":function($event){_vm.from = $event},"check-out-changed":function($event){_vm.to = $event}}}),_c('button',{staticClass:"cta",on:{"click":_vm.submit}},[_vm._v("Check Dates")])],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=0e3242af&
+// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=7fb7abbc&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.concat.js
 var es_array_concat = __webpack_require__("99af");
@@ -3015,6 +3015,7 @@ var vue_hotel_datepicker_min_default = /*#__PURE__*/__webpack_require__.n(vue_ho
 //
 //
 
+console.info("Date Picker application is running");
 /* harmony default export */ var Appvue_type_script_lang_js_ = ({
   name: 'App',
   components: {
@@ -3158,7 +3159,7 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   src_Appvue_type_script_lang_js_,
-  Appvue_type_template_id_0e3242af_render,
+  Appvue_type_template_id_7fb7abbc_render,
   staticRenderFns,
   false,
   null,

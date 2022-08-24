@@ -11,6 +11,7 @@
 
 <script>
 import DatePicker from 'vue-hotel-datepicker'
+console.info("Date Picker application is running")
 export default {
   name: 'App',
   components: {
